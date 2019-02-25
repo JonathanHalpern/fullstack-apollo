@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
-import { Query } from 'react-apollo';
-import gql from 'graphql-tag';
+import React, { Fragment } from "react";
+import { Query } from "react-apollo";
+import gql from "graphql-tag";
 
-import { Header, Loading } from '../components';
-import { CartItem, BookTrips } from '../containers';
+import { Header, Loading } from "../components";
+import { CartItem, BookTrips } from "../containers";
 
 export const GET_CART_ITEMS = gql`
   query GetCartItems {

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "nodemon src/index.js",
-    "start:ci": "node src/index.js"
+    "start:ci": "node src/index.js",
+    "format": "prettier --write \"src/**/*.js\""
   },
   "author": "",
   "license": "ISC",
@@ -26,7 +27,8 @@
     "apollo-link-http": "^1.5.5",
     "jest": "^23.6.0",
     "nock": "^10.0.2",
-    "node-fetch": "^2.2.1"
+    "node-fetch": "^2.2.1",
+    "prettier": "^1.15.2"
   },
   "jest": {
     "testPathIgnorePatterns": [
